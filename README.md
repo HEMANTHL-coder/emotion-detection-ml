@@ -40,3 +40,28 @@ This project is a **web-based emotion detection system** that predicts human emo
 ---
 
 ## 📁 Project Structure
+emotion-detection-ml/
+│
+├── app.py
+├── train_model.py
+├── emotion_dataset.csv
+├── emotion_model.pkl
+├── tfidf_vectorizer.pkl
+├── requirements.txt
+└── README.md
+
+---
+
+## ▶️ How to Run Locally
+```bash
+pip install -r requirements.txt
+python train_model.py
+streamlit run app.py
+
+👨‍💻 Author
+
+Hemanth L 
+B.Tech – Information Science & Engineering
+
+⭐ If you like this project
+Give it a ⭐ on GitHub 😊
