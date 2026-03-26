@@ -35,6 +35,7 @@ This project is a **web-based emotion detection system** that predicts human emo
 ---
 
 ## 🚀 Live Demo
+check out the app demo in streamlit app
 🔗 https://emotion-detection-ml-ddfexbf3buebeuzbbr2rsy.streamlit.app/
 
 ---
