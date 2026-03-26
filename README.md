@@ -49,6 +49,15 @@ emotion-detection-ml/
 ├── tfidf_vectorizer.pkl
 ├── requirements.txt
 └── README.md
+emotion-detection-ml/
+│
+├── app.py
+├── train_model.py
+├── emotion_dataset.csv
+├── emotion_model.pkl
+├── tfidf_vectorizer.pkl
+├── requirements.txt
+└── README.md
 
 ---
 
