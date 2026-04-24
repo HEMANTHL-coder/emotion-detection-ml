@@ -1,68 +1,41 @@
-# emotion-detection-ml
-# 🎭 Emotion Detection using Machine Learning
+# Emotion Detection ML
 
-This project is a **web-based emotion detection system** that predicts human emotions from text or voice input using **Machine Learning and NLP**.
+## Installation
+To install the required packages, run the following command:
 
----
-
-## 🔥 Features
-- ✅ Text input
-- 🎤 Voice input
-- 🎯 Detects 14 emotions
-- 📊 Confidence score
-- 🌐 Deployed using Streamlit Cloud
-- 💡 Clean and interactive UI
-
----
-
-## 🧠 How It Works
-1. User enters text or speaks
-2. Text is cleaned using NLP
-3. TF-IDF converts text into vectors
-4. Machine Learning model predicts emotion
-5. Result + confidence displayed
-
----
-
-## 🛠 Tech Stack
-- Python
-- Streamlit
-- Scikit-learn
-- NLP (TF-IDF)
-- Speech Recognition
-- Pandas & NumPy
-
----
-
-## 🚀 Live Demo
-check out the app demo in streamlit app
-🔗 https://emotion-detection-ml-ddfexbf3buebeuzbbr2rsy.streamlit.app/
-
----
-
-## 📁 Project Structure
-emotion-detection-ml/
-│
-├── app.py
-├── train_model.py
-├── emotion_dataset.csv
-├── emotion_model.pkl
-├── tfidf_vectorizer.pkl
-├── requirements.txt
-└── README.md
-
----
-
-## ▶️ How to Run Locally
-```bash
+```
 pip install -r requirements.txt
-python train_model.py
-streamlit run app.py
+```
 
-👨‍💻 Author
+## Usage
+To use this emotion detection model, follow these steps:
 
-Hemanth L 
-B.Tech – Information Science & Engineering
+1. Clone the repository:
+   
+   ```
+git clone https://github.com/HEMANTHL-coder/emotion-detection-ml.git
+   ```
 
-⭐ If you like this project
-Give it a ⭐ on GitHub 😊
+2. Navigate to the project directory:
+   
+   ```
+cdf emotion-detection-ml
+   ```
+
+3. Run the main script:
+   
+   ```
+   python main.py
+   ```
+   
+## Requirements
+- Python 3.x
+- TensorFlow
+- NumPy
+- Pandas
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request.
